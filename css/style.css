@@ -36,32 +36,6 @@ body{
   flex: 1 1 auto;
 }
 /* ************************************************************************ */
-
-
-/* @media (min-width: 575.98px){
- .container {
-   padding: 0 calc(50% - 270px);
- }
-}
-
-@media (min-width: 767.98px){
- .container {
-   padding: 0 calc(50% - 360px);
- }
-}
-
-@media (min-width: 991.98px) {
- .container {
-   padding: 0 calc(50% - 480px);
- }
-}
-
-@media (min-width: 1199.98px){
- .container {
-   padding: 0 calc(50% - 590px);
- }
-} */
-
 img{
   width: 100%;
   height: auto;
@@ -80,7 +54,6 @@ text-decoration: none;
 display: inline-block;
 }
 a:hover{
-  /* cursor: default; */
   cursor: pointer;
 }
 /* ************************************************************************ */
@@ -138,7 +111,6 @@ a:hover{
   transition: all 8ms ease-out;
 }
 .btn:hover{
-  /* transform: scale(1.1); */
   box-shadow: 4px 5px 10px 1px #49464f;
 }
 /* ************************************************************************ */
@@ -215,7 +187,6 @@ a:hover{
   color: #2E2C34;
   margin-left: -30px;
 }
-
 /************************************************************************* */
 .choice{
   background-color: #F5F5F7;
@@ -310,7 +281,6 @@ a:hover{
   flex: 0 1 60%;
   padding: 12px;
 }
-
 .description{
   flex: 0 1 40%;
 }
@@ -327,7 +297,6 @@ a:hover{
   margin-bottom: 39px;
   padding-right: 52px;
 }
-
 /* ************************************************************************ */
 .popularity__container{
   display: flex;
@@ -443,7 +412,6 @@ a:hover{
   border-radius: 16px;
   padding: 70px 24px 34px 24px;
 }
-
 /* ************************************************************************ */
 .information-hint{
   background-color: #F5F5F7;
@@ -541,9 +509,7 @@ a:hover{
   font-size: 17px;
   line-height: 1.41;
 }
-
 /* ************************************************************************ */
-
 .footer{
   background: linear-gradient(25deg, rgb(250, 203, 194),rgb(219, 142, 252), rgb(211, 102, 233), rgb(231, 54, 231)) no-repeat center center fixed;
 }
@@ -645,27 +611,6 @@ a:hover{
   transform: scale(1.1);
 }
 /* ************************************************************************ */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- 
 @media (max-width: 1189.98px){
 [class*="__container"]{
   max-width: 1000px;
@@ -710,13 +655,6 @@ a:hover{
   min-height: 100%;
 }
 }
-
-
-
-
-
-
-
 @media (max-width: 990.98px){
   [class*="__container"]{
   max-width: 860px;
@@ -846,7 +784,6 @@ a:hover{
   flex: 0 1 30%;
   padding: 5px;
 }
-
 .footer-block {
   padding: 64px 18px 10px 18px;
   flex-wrap: wrap;
@@ -867,20 +804,6 @@ a:hover{
   padding: 20px 38px;
 }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 @media (max-width: 767.98px){
   [class*="__container"]{
     max-width: none;
@@ -1043,9 +966,6 @@ a:hover{
   font-size: 36px;
 }
 }
-
-
-
  @media (max-width: 479.98px){
   .title-bike {
     font-size: 30px;
@@ -1107,7 +1027,6 @@ a:hover{
 }
 
 
-
 .popularity{
   object-fit: scale-down;
 }
@@ -1137,14 +1056,6 @@ a:hover{
 
 
 
-
-
-
-
-
-
-
-
 .question-dropdown {
   padding: 0px 8px;
   margin-bottom: 46px;
@@ -1166,8 +1077,6 @@ a:hover{
 .information-hint-dropdown {
   padding: 8px 2px 0px 16px;
 }
-
-
 .reviews__container {
   padding: 16px 6px;
 }
@@ -1209,29 +1118,3 @@ a:hover{
   padding: 6px;
 }
  }
-
-
-
-
-
-
- @media (max-width: 320px){
-
-
-
-
- }
-
-
-
-
-
-/* *
-
-для смартфонов — 320 px,
-480 px
-для планшетов — 767.98px
-для нетбуков — 991.98px
-для мониторов — max-width: 1310px 
-
-* */
